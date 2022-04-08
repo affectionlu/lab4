@@ -1,0 +1,29 @@
+OPs in the input model include:
+                                        OP_name  kARM  kHost
+                                     batch_norm     Y       
+                                           cast            Y
+                                         concat     Y       
+                                         conv2d     Y       
+                               depthwise_conv2d     Y       
+                                elementwise_add     Y       
+                                elementwise_div     Y       
+                                elementwise_mul     Y       
+                                      expand_v2            Y
+                                           feed            Y
+                                          fetch            Y
+                                  fill_constant            Y
+                                   hard_sigmoid     Y      Y
+                                     hard_swish     Y      Y
+                                     leaky_relu     Y      Y
+                                multiclass_nms3            Y
+                              nearest_interp_v2     Y       
+                                         pool2d     Y       
+                                          range            Y
+                                           relu     Y      Y
+                                       reshape2            Y
+                                          scale     Y       
+                                          shape            Y
+                                          slice     Y       
+                                     transpose2     Y       
+                                       yolo_box     Y      Y
+Paddle-Lite supports this model!

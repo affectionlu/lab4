@@ -1,0 +1,19 @@
+OPs in the input model include:
+                                        OP_name  kARM  kHost
+                                        arg_max     Y      Y
+                                     batch_norm     Y       
+                             bilinear_interp_v2     Y       
+                                         concat     Y       
+                                         conv2d     Y       
+                                elementwise_add     Y       
+                                           feed            Y
+                                          fetch            Y
+                                  fill_constant            Y
+                                           relu     Y      Y
+                                       reshape2            Y
+                                          scale     Y       
+                                          shape            Y
+                                          slice     Y       
+                                        softmax     Y       
+                                     transpose2     Y       
+                                     unsqueeze2            Y
